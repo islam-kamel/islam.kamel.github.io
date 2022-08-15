@@ -1,0 +1,14 @@
+body {
+    background-color: #f1efe3;
+}
+nav {
+    background-color: #1f2022 !important;
+}
+nav div span {
+    color: white !important;
+}
+.bio {
+    background-color: #f1efe3;
+    padding: 10px;
+    border-radius: 5px;
+}
