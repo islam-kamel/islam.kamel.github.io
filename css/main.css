@@ -36,3 +36,11 @@ footer {
 .blue {
     color: #3636e6;
 }
+
+code {
+    background-color: #1f2022;
+    padding: 0.2em;
+    border-radius: 0.2em;
+    color: #f1efe3;
+
+}
