@@ -1,0 +1,29 @@
+
+@media print
+{
+	/* global */
+	body{ color:#000; font-size:9pt; }
+    .container {
+        max-width: 100% !important;
+        margin-top: 1% !important;
+    }
+	/* layout */
+	#wrap{ width:600px; }
+
+	/* custom */
+	.print-only{ display:block;}
+	.page-break{ page-break-before:always; }
+
+	/* links */
+	a{ text-decoration:underline; color:#999; }
+    
+    .footer{
+        display: none;
+    }
+    .qa-btn {
+        display: none;
+    }
+    .print-only{
+        display: inline;
+    }
+}
