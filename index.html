@@ -16,8 +16,8 @@
     <nav class="navbar" id="nav">
         <div class="container">
             <ul class="mt-1 list-inline">
-                <li><span class="navbar-brand mb-0 h1">Islam Kamel Abd Al-Moaty </span></li>
-                <li><span class="mt-0 title">Backend Developer <span>(Django)</span></span></li>
+                <li><a href="QA.html" class="navbar-brand mb-0 h1 bold"><m>Islam Kamel Abd Al-Moaty</m> </a></li>
+                <li><span class="mt-0 title text-primary">Backend Developer <span>(Django)</span></span></li>
                 <li class="print-only">
                     <a  
                     class="nav-link d-inline"
@@ -38,19 +38,14 @@
                     
                 </li>
             </ul>
-            <a rel="noopener"  class="qa-btn nav-link" href="QA.html">
-                <button class="btn btn-success btn-sm h6">
-                    Q/A Section
-                </button>
-            </a>
         </div>
     </nav>
     <div class="container mt-5" id="main">
         <!-- Content here -->
         <div class="card main-card">
             <div class="card-body">
-                <span class="h5"><strong>> <span>HI</span> There 👋</strong></span>
-                <button class="btn btn-primary btn-sm float-end" id="download"> Download CV </button>
+                <span class="h5"><strong>> <span class="text-primary">HI</span> There 👋</strong></span>
+                <button class="btn btn-outline-primary btn-sm float-end" id="download"> Get PDF </button>
                 <hr>
                 <div class="bio">
                     <p class="card-text">
@@ -63,11 +58,11 @@
                 <div class="side-projects ">
                     <h5><strong> Side Projects 🛠️</strong></h5>
                     <p>
-                        <a rel="noopener" class="nav-link bold d-inline" href="https://github.com/islam-kamel/django-start" target="_blank"><u class="bio">django-Start</u></a>
+                        <a rel="noopener" class="nav-link d-inline" href="https://github.com/islam-kamel/django-start" target="_blank"><u class="bio">django-Start</u></a>
                         Scripts for automate create new django project and create new app
                     </p>
                     <p>
-                        <a rel="noopener" class="nav-link bold d-inline" href="https://github.com/islam-kamel/arabclub" target="_blank"><u class="bio">ArabiansDevWorld</u></a> 
+                        <a rel="noopener" class="nav-link d-inline" href="https://github.com/islam-kamel/arabclub" target="_blank"><u class="bio">ArabiansDevWorld</u></a> 
                         This is big social network for arab developer
                     </p>
                 </div>
@@ -115,16 +110,15 @@
     <footer class="footer">
         <div class="text-center mt-5">
             <div>
-                
-                <p class="center"><span class="blue">Made in</span> 2022</p>
-                <a rel="noopener"  href="https://github.com/islam-kamel" target="_blank"><img src="media/github.svg" alt="github" width="20"></a>
+                <p class="center d-block"><span class="blue">Made in</span> 2022</p>
+                <a  rel="noopener"  href="https://github.com/islam-kamel" target="_blank"><img src="media/github.svg" alt="github" width="20"></a>
                 <a rel="noopener"  href="https://www.linkedin.com/in/islam-al-saghir/" target="_blank"><img src="media/linkedin.png" alt="linkedin" width="25"></a>
             </div>
         </div>
     </footer>
     <script>
         const download = document.getElementById('download').addEventListener('click', () => {
-            window.print()
+            window.open('pdf/Islam-Al-Saghir.pdf')
         })
     </script>
 </body>

@@ -1,26 +1,30 @@
 body {
-    background-color: #f1efe3;
+    background-color: #ffffff;
     font-family: helvetica neue, helvetica, sans-serif;
+    color: #1f2022 !important;
 }
 nav {
-    background-color: #1f2022 !important;
+    background-color: #ffffff !important;
+    color: #1f2022 !important;
 }
 nav ul li{
     list-style-type: none;
 }
+
 .title{
     font-size: 13px;
-    color: #f89832 !important;
     margin-top: -5%;
 }
 nav div span {
-    color: white !important;
+    color: #1f2022 !important;
+
 }
-.card-body span strong span {
+/* .card-body span strong span {
     color: #f89832;
-}
+    color: blue;
+} */
 .bio {
-    background-color: #f1efe3;
+    background-color: #e7e7e7;
     padding: 5px;
     border-radius: 5px;
 }
@@ -46,4 +50,7 @@ code {
 
 .print-only {
     display: none;
+}
+.bold{
+    font-weight: bolder !important;
 }
